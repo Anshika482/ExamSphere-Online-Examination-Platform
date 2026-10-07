@@ -1,0 +1,9 @@
+.env
+target/
+*.log
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+node_modules/

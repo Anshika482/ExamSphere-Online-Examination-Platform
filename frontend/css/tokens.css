@@ -1,0 +1,325 @@
+/* ExamSphere — Premium Dark / Purple / Electric Blue Design Tokens */
+
+:root {
+    /* ===== BACKGROUND ===== */
+    --bg: #05050a;
+    --bg-raised: #080811;
+    --surface: #0d0d18;
+    --surface-2: #121222;
+    --surface-3: #18182c;
+
+    /* Glass surfaces */
+    --glass: rgba(16, 16, 32, 0.68);
+    --glass-strong: rgba(20, 20, 42, 0.82);
+
+    /* ===== BORDERS ===== */
+    --line: rgba(255, 255, 255, 0.08);
+    --line-strong: rgba(255, 255, 255, 0.15);
+    --line-purple: rgba(139, 92, 246, 0.28);
+    --line-blue: rgba(59, 130, 246, 0.28);
+
+    /* ===== TEXT ===== */
+    --text: #f5f5ff;
+    --text-soft: #c9c9dc;
+    --muted: #9292aa;
+    --faint: #626277;
+
+    /* ===== PRIMARY — PURPLE ===== */
+    --accent: #8b5cf6;
+    --accent-strong: #a78bfa;
+    --accent-ink: #080510;
+    --accent-soft: rgba(139, 92, 246, 0.12);
+    --accent-line: rgba(139, 92, 246, 0.35);
+
+    /* ===== ELECTRIC BLUE ===== */
+    --blue: #3b82f6;
+    --blue-strong: #60a5fa;
+    --blue-soft: rgba(59, 130, 246, 0.12);
+    --blue-line: rgba(59, 130, 246, 0.35);
+
+    /* ===== GRADIENT / GLOW ===== */
+    --gradient-primary: linear-gradient(
+        135deg,
+        #8b5cf6 0%,
+        #6366f1 45%,
+        #3b82f6 100%
+    );
+
+    --gradient-soft: linear-gradient(
+        135deg,
+        rgba(139, 92, 246, 0.18),
+        rgba(59, 130, 246, 0.12)
+    );
+
+    --glow: rgba(139, 92, 246, 0.24);
+    --glow-blue: rgba(59, 130, 246, 0.20);
+
+    /* ===== STATUS ===== */
+    --success: #34d399;
+    --success-soft: rgba(52, 211, 153, 0.12);
+
+    --warning: #fbbf24;
+    --warning-soft: rgba(251, 191, 36, 0.12);
+
+    --danger: #f87171;
+    --danger-soft: rgba(248, 113, 113, 0.12);
+
+    --info: #60a5fa;
+    --info-soft: rgba(96, 165, 250, 0.12);
+
+    --violet: #a78bfa;
+
+    /* ===== TYPOGRAPHY ===== */
+    --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+    --font-body: "Instrument Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+
+    /* ===== RADII ===== */
+    --r-sm: 8px;
+    --r-md: 12px;
+    --r-lg: 18px;
+    --r-xl: 26px;
+    --r-pill: 999px;
+
+    /* ===== SPACING ===== */
+    --s-1: 4px;
+    --s-2: 8px;
+    --s-3: 12px;
+    --s-4: 16px;
+    --s-5: 24px;
+    --s-6: 32px;
+    --s-7: 48px;
+    --s-8: 72px;
+
+    /* ===== SHADOWS ===== */
+    --shadow-card:
+        0 1px 0 rgba(255, 255, 255, 0.04) inset,
+        0 20px 50px -28px rgba(0, 0, 0, 0.95);
+
+    --shadow-pop:
+        0 24px 70px -20px rgba(0, 0, 0, 0.9),
+        0 0 0 1px var(--line);
+
+    --shadow-purple:
+        0 0 35px rgba(139, 92, 246, 0.18);
+
+    --shadow-blue:
+        0 0 35px rgba(59, 130, 246, 0.16);
+
+    /* ===== LAYOUT ===== */
+    --sidebar-w: 248px;
+    --header-h: 64px;
+
+    /* ===== ANIMATION ===== */
+    --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+
+/* =========================================================
+   GLOBAL BASE
+   ========================================================= */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    color-scheme: dark;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background:
+        radial-gradient(
+            circle at 15% 10%,
+            rgba(139, 92, 246, 0.07),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(59, 130, 246, 0.06),
+            transparent 28%
+        ),
+        var(--bg);
+
+    color: var(--text);
+
+    font-family: var(--font-body);
+    font-size: 15px;
+    line-height: 1.55;
+
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+
+/* =========================================================
+   TYPOGRAPHY
+   ========================================================= */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0;
+    letter-spacing: -0.01em;
+}
+
+h1 {
+    font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.1rem);
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.05rem;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    color: var(--accent-strong);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--blue-strong);
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* =========================================================
+   FORM ELEMENTS
+   ========================================================= */
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    color: inherit;
+}
+
+
+/* =========================================================
+   TABLES
+   ========================================================= */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* =========================================================
+   ACCESSIBILITY
+   ========================================================= */
+
+:focus-visible {
+    outline: 2px solid var(--accent-strong);
+    outline-offset: 2px;
+    border-radius: 6px;
+}
+
+.skip-link {
+    position: absolute;
+    left: -999px;
+    top: 8px;
+
+    background: var(--accent);
+    color: var(--accent-ink);
+
+    padding: 8px 14px;
+    border-radius: var(--r-sm);
+
+    z-index: 1000;
+    font-weight: 600;
+}
+
+.skip-link:focus {
+    left: 8px;
+}
+
+
+/* =========================================================
+   UTILITY CLASSES
+   ========================================================= */
+
+.num {
+    font-variant-numeric: tabular-nums;
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.soft {
+    color: var(--text-soft);
+}
+
+.small {
+    font-size: 0.86rem;
+}
+
+.right {
+    text-align: right;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+html.reduce-motion *,
+html.reduce-motion *::before {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+}

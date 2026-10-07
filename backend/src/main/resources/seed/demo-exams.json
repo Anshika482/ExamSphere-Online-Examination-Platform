@@ -1,0 +1,598 @@
+[
+ {
+  "title": "Java Fundamentals",
+  "description": "Core Java concepts: data types, OOP basics, strings, collections and exception handling.",
+  "category": "Java",
+  "durationMinutes": 30,
+  "passMarks": 25,
+  "marksPerQuestion": 5,
+  "status": "PUBLISHED",
+  "questions": [
+   {
+    "text": "Which keyword is used to inherit a class in Java?",
+    "options": [
+     "implements",
+     "extends",
+     "inherits",
+     "super"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "What is the size of an int in Java?",
+    "options": [
+     "8 bits",
+     "16 bits",
+     "32 bits",
+     "64 bits"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "Which of these is NOT a primitive data type in Java?",
+    "options": [
+     "boolean",
+     "char",
+     "double",
+     "String"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "Which method is the entry point of a standalone Java application?",
+    "options": [
+     "public static void main(String[] args)",
+     "public void start()",
+     "static void run()",
+     "public static int main()"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which collection does not allow duplicate elements?",
+    "options": [
+     "ArrayList",
+     "LinkedList",
+     "HashSet",
+     "Vector"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "What does the 'final' keyword mean when applied to a variable?",
+    "options": [
+     "It can be changed only once per method",
+     "Its value cannot be reassigned after initialisation",
+     "It is visible in all packages",
+     "It is stored on the heap"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which exception is thrown when dividing an integer by zero?",
+    "options": [
+     "ArithmeticException",
+     "NullPointerException",
+     "NumberFormatException",
+     "IllegalStateException"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which of these compares the content of two String objects?",
+    "options": [
+     "==",
+     "equals()",
+     "compare()",
+     "is()"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which interface must a class implement to be used in a for-each loop?",
+    "options": [
+     "Comparable",
+     "Serializable",
+     "Runnable",
+     "Iterable"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "What is the default value of an instance variable of type boolean?",
+    "options": [
+     "true",
+     "false",
+     "null",
+     "0"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "title": "DBMS Essentials",
+  "description": "Relational model, keys, normalization, SQL and transactions.",
+  "category": "DBMS",
+  "durationMinutes": 20,
+  "passMarks": 25,
+  "marksPerQuestion": 5,
+  "status": "PUBLISHED",
+  "questions": [
+   {
+    "text": "Which key uniquely identifies each row in a table?",
+    "options": [
+     "Primary key",
+     "Foreign key",
+     "Candidate index",
+     "Composite attribute"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which normal form removes partial dependency?",
+    "options": [
+     "1NF",
+     "2NF",
+     "3NF",
+     "BCNF"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which SQL clause is used to filter groups created by GROUP BY?",
+    "options": [
+     "WHERE",
+     "ORDER BY",
+     "HAVING",
+     "DISTINCT"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "What does the 'I' in ACID stand for?",
+    "options": [
+     "Integrity",
+     "Indexing",
+     "Inheritance",
+     "Isolation"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "Which join returns only the rows that match in both tables?",
+    "options": [
+     "INNER JOIN",
+     "LEFT JOIN",
+     "RIGHT JOIN",
+     "FULL OUTER JOIN"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "A foreign key is used to...",
+    "options": [
+     "speed up full table scans",
+     "enforce a link between two tables",
+     "encrypt a column",
+     "store large binary objects"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which command permanently saves a transaction?",
+    "options": [
+     "SAVEPOINT",
+     "ROLLBACK",
+     "COMMIT",
+     "GRANT"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "Which of these is a DDL statement?",
+    "options": [
+     "SELECT",
+     "INSERT",
+     "UPDATE",
+     "CREATE TABLE"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "An index on a column mainly improves...",
+    "options": [
+     "the speed of lookups on that column",
+     "the speed of inserts",
+     "the storage size",
+     "data integrity"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which aggregate function returns the number of rows?",
+    "options": [
+     "SUM()",
+     "COUNT()",
+     "AVG()",
+     "MAX()"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "title": "OOP Concepts",
+  "description": "Encapsulation, inheritance, polymorphism and abstraction.",
+  "category": "OOP",
+  "durationMinutes": 25,
+  "passMarks": 25,
+  "marksPerQuestion": 5,
+  "status": "PUBLISHED",
+  "questions": [
+   {
+    "text": "Wrapping data and the methods that operate on it into a single unit is called...",
+    "options": [
+     "Encapsulation",
+     "Polymorphism",
+     "Inheritance",
+     "Abstraction"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Method overloading is an example of...",
+    "options": [
+     "Run-time polymorphism",
+     "Compile-time polymorphism",
+     "Encapsulation",
+     "Multiple inheritance"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which concept lets a subclass provide its own version of a superclass method?",
+    "options": [
+     "Overloading",
+     "Hiding",
+     "Overriding",
+     "Casting"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "An abstract class...",
+    "options": [
+     "cannot have constructors",
+     "must contain only abstract methods",
+     "can be instantiated directly",
+     "cannot be instantiated directly"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "Which relationship does inheritance represent?",
+    "options": [
+     "is-a",
+     "has-a",
+     "uses-a",
+     "part-of"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Hiding implementation details and showing only essential features is...",
+    "options": [
+     "Encapsulation",
+     "Abstraction",
+     "Inheritance",
+     "Composition"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which access modifier makes a member visible only inside its own class?",
+    "options": [
+     "public",
+     "protected",
+     "private",
+     "default"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "A constructor is...",
+    "options": [
+     "a method that returns the object's hash",
+     "a static method called by the JVM",
+     "a method that destroys an object",
+     "a special method that initialises a new object"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "Composition represents which relationship?",
+    "options": [
+     "is-a",
+     "has-a",
+     "kind-of",
+     "extends"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Calling an overridden method through a superclass reference is resolved at...",
+    "options": [
+     "run time",
+     "compile time",
+     "link time",
+     "load time only"
+    ],
+    "answer": 0
+   }
+  ]
+ },
+ {
+  "title": "Web Development Basics",
+  "description": "HTML, CSS, JavaScript and HTTP fundamentals.",
+  "category": "Web Development",
+  "durationMinutes": 20,
+  "passMarks": 20,
+  "marksPerQuestion": 4,
+  "status": "PUBLISHED",
+  "questions": [
+   {
+    "text": "Which HTML element is used for the largest heading?",
+    "options": [
+     "<h1>",
+     "<head>",
+     "<h6>",
+     "<header>"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which CSS property changes the text colour?",
+    "options": [
+     "font-color",
+     "color",
+     "text-style",
+     "foreground"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which HTTP method is normally used to retrieve data without changing it?",
+    "options": [
+     "POST",
+     "PUT",
+     "GET",
+     "DELETE"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "Which JavaScript keyword declares a block-scoped variable that cannot be reassigned?",
+    "options": [
+     "var",
+     "let",
+     "static",
+     "const"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "What does JSON stand for?",
+    "options": [
+     "JavaScript Object Notation",
+     "Java Source Open Network",
+     "JavaScript Online Node",
+     "Joined Script Object Naming"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which HTTP status code means 'Not Found'?",
+    "options": [
+     "200",
+     "404",
+     "500",
+     "302"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "Which CSS layout module arranges items in a single row or column?",
+    "options": [
+     "Grid only",
+     "Float",
+     "Flexbox",
+     "Table"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "Which browser API is used to make HTTP requests from JavaScript?",
+    "options": [
+     "DOM API",
+     "Canvas API",
+     "Storage API",
+     "Fetch API"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "Which attribute links a <label> to an input?",
+    "options": [
+     "for",
+     "name",
+     "link",
+     "target"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which HTTP status code means the request was unauthorised (authentication required)?",
+    "options": [
+     "400",
+     "401",
+     "403",
+     "409"
+    ],
+    "answer": 1
+   }
+  ]
+ },
+ {
+  "title": "General Aptitude",
+  "description": "Quantitative and logical reasoning warm-up.",
+  "category": "General Aptitude",
+  "durationMinutes": 15,
+  "passMarks": 10,
+  "marksPerQuestion": 2,
+  "status": "PUBLISHED",
+  "questions": [
+   {
+    "text": "What is 15% of 200?",
+    "options": [
+     "20",
+     "30",
+     "35",
+     "45"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "If a train travels 120 km in 2 hours, what is its average speed?",
+    "options": [
+     "40 km/h",
+     "50 km/h",
+     "60 km/h",
+     "80 km/h"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "What is the next number in the series 2, 4, 8, 16, ...?",
+    "options": [
+     "32",
+     "24",
+     "20",
+     "18"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "The average of 10, 20 and 30 is...",
+    "options": [
+     "15",
+     "25",
+     "30",
+     "20"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "If 3x = 27, then x equals...",
+    "options": [
+     "6",
+     "9",
+     "12",
+     "24"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "A shopkeeper buys an item for 400 and sells it for 500. The profit percentage is...",
+    "options": [
+     "20%",
+     "22.5%",
+     "25%",
+     "30%"
+    ],
+    "answer": 2
+   },
+   {
+    "text": "Which number is a prime?",
+    "options": [
+     "29",
+     "21",
+     "27",
+     "33"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "How many minutes are there in 2.5 hours?",
+    "options": [
+     "120",
+     "130",
+     "140",
+     "150"
+    ],
+    "answer": 3
+   },
+   {
+    "text": "What is the square root of 144?",
+    "options": [
+     "11",
+     "12",
+     "13",
+     "14"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "If today is Monday, what day will it be after 10 days?",
+    "options": [
+     "Tuesday",
+     "Wednesday",
+     "Thursday",
+     "Friday"
+    ],
+    "answer": 2
+   }
+  ]
+ },
+ {
+  "title": "Data Structures Quiz (Draft)",
+  "description": "Work-in-progress quiz on arrays, stacks and queues. Add more questions, then publish.",
+  "category": "Data Structures",
+  "durationMinutes": 15,
+  "passMarks": 5,
+  "marksPerQuestion": 5,
+  "status": "DRAFT",
+  "questions": [
+   {
+    "text": "Which data structure works on the LIFO principle?",
+    "options": [
+     "Stack",
+     "Queue",
+     "Linked list",
+     "Tree"
+    ],
+    "answer": 0
+   },
+   {
+    "text": "Which data structure works on the FIFO principle?",
+    "options": [
+     "Stack",
+     "Queue",
+     "Heap",
+     "Graph"
+    ],
+    "answer": 1
+   },
+   {
+    "text": "What is the time complexity of binary search on a sorted array?",
+    "options": [
+     "O(n)",
+     "O(n log n)",
+     "O(log n)",
+     "O(1)"
+    ],
+    "answer": 2
+   }
+  ]
+ }
+]
