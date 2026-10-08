@@ -1,4 +1,8 @@
 # ExamSphere
+## 🚀 Live Demo
+**Live Application:** https://examsphere-5vy7.onrender.com
+
+> The live demo is deployed on Render and uses a cloud-hosted MySQL database.
 
 **Smarter Examinations. Brighter Futures.**
 
